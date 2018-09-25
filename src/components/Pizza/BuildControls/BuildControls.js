@@ -16,9 +16,7 @@ const controls = [
 const buildControls = (props) => (
     <div>
         <p>Current Price:</p>
-        {controls.map(ctrl => (
             <BuildControl/>
-        ))}
         <button>ORDER NOW</button>
     </div>
 );
