@@ -19,7 +19,7 @@ const pizza = ( props ) => {
     return (
         <div className={classes.Pizza}>
             {transformedIngredients}
-            <BurgerIngredient type="bread-bottom" />
+            <PizzaIngredient type="bread-bottom" />
         </div>
     );
 };
